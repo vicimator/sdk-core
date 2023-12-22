@@ -22,7 +22,7 @@ function constructSameAddressMap(address: string, additionalNetworks: ChainId[] 
   }, {})
 }
 
-export const UNI_ADDRESSES: AddressMap = constructSameAddressMap('0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984', [
+export const UNI_ADDRESSES: AddressMap = constructSameAddressMap('0xc86D778616a9c68e0cBeD8aCd46FF9F6aC6E7b27', [
   ChainId.OPTIMISM,
   ChainId.ARBITRUM_ONE,
   ChainId.POLYGON,
@@ -47,11 +47,11 @@ export const V2_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap(V2_ROUTER
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
 const DEFAULT_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
+  v3CoreFactoryAddress: '0x3DD73C50959B08D98e61829171cc955BF9D94fBB',
   multicallAddress: '0x1F98415757620B543A52E61c46B32eB19261F984',
-  quoterAddress: '0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6',
+  quoterAddress: '0xDCc6b0d77A384Ae2b0d0566564ebd69368e7607e',
   v3MigratorAddress: '0xA5644E29708357803b5A882D272c41cC0dF92B34',
-  nonfungiblePositionManagerAddress: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88'
+  nonfungiblePositionManagerAddress: '0x21e2Ba7992701aAe94fc81f1edD0969A27c6d2Dc'
 }
 const MAINNET_ADDRESSES: ChainAddresses = {
   ...DEFAULT_ADDRESSES,
@@ -113,12 +113,12 @@ const ARBITRUM_GOERLI_ADDRESSES: ChainAddresses = {
 
 // sepolia v3 addresses
 const SEPOLIA_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x0227628f3F023bb0B980b67D528571c95c6DaC1c',
+  v3CoreFactoryAddress: '0x3DD73C50959B08D98e61829171cc955BF9D94fBB',
   multicallAddress: '0xD7F33bCdb21b359c8ee6F0251d30E94832baAd07',
-  quoterAddress: '0xEd1f6473345F45b75F8179591dd5bA1888cf2FB3',
+  quoterAddress: '0xDCc6b0d77A384Ae2b0d0566564ebd69368e7607e',
   v3MigratorAddress: '0x729004182cF005CEC8Bd85df140094b6aCbe8b15',
-  nonfungiblePositionManagerAddress: '0x1238536071E1c677A632429e3655c799b22cDA52',
-  tickLensAddress: '0xd7f33bcdb21b359c8ee6f0251d30e94832baad07'
+  nonfungiblePositionManagerAddress: '0x21e2Ba7992701aAe94fc81f1edD0969A27c6d2Dc',
+  tickLensAddress: '0x6c07B03AE4847C1eEd9f3A78fDF288f6c6195A26'
 }
 
 // Avalanche v3 addresses
